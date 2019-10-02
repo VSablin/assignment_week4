@@ -27,16 +27,19 @@ I finally compute the mean of each variable for each subject and activity by mea
 All data are in the folder UCI HAR Dataset. It contains:
 
 ### TRAIN:
+All the following files are in the dir "train".<br/>
 X_train.txt: Train set <br/>
 y_train.txt: Activity labels for the train set <br/>
 subject_train.txt: Subjects for the train set
 
 ### TEST:
+All the following files are in the dir "test".<br/>
 X_test.txt: Test set <br/>
 y_test.txt: Activity labels for the test set <br/>
 subject_test.txt: Subjects for the test set
 
 ### AUXILIARY FILES:
+These files are in the main dir.<br/>
 activity_labels.txt: Table with the activity name corresponding to each label <br/>
 features.txt: Variable names of the train and test set
 features_info.txt: Tnformation of features.txt

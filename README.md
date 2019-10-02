@@ -41,6 +41,6 @@ subject_test.txt: Subjects for the test set
 ### AUXILIARY FILES:
 These files are in the main dir.<br/>
 activity_labels.txt: Table with the activity name corresponding to each label <br/>
-features.txt: Variable names of the train and test set
-features_info.txt: Information of features.txt. This is not used in the script, but it is convenient.
+features.txt: Variable names of the train and test set<br/>
+features_info.txt: Information of features.txt. This is not used in the script, but it is convenient.<br/>
 README.txt: Original readme file by the Human Activity Recognition Using Smartphones Dataset with slight modifications.

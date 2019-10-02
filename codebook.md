@@ -7,23 +7,29 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 XYZ is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc_XYZ<br/>
-tGravityAcc_XYZ<br/>
-tBodyAccJerk_XYZ<br/>
-tBodyGyro_XYZ<br/>
-tBodyGyroJerk_XYZ<br/>
-tBodyAccMag<br/>
-tGravityAccMag<br/>
-tBodyAccJerkMag<br/>
-tBodyGyroMag<br/>
-tBodyGyroJerkMag<br/>
-fBodyAcc_XYZ<br/>
-fBodyAccJerk_XYZ<br/>
-fBodyGyro_XYZ<br/>
-fBodyAccMag<br/>
-fBodyAccJerkMag<br/>
-fBodyGyroMag<br/>
-fBodyGyroJerkMag<br/>
+tBodyAcc_mean/std_XYZ<br/>
+tGravityAcc_mean/std_XYZ<br/>
+tBodyAccJerk_mean/std_XYZ<br/>
+tBodyGyro_mean/std_XYZ<br/>
+tBodyGyroJerk_mean/std_XYZ<br/>
+tBodyAccMag_mean/std<br/>
+tGravityAccMag_mean/std<br/>
+tBodyAccJerkMag_mean/std<br/>
+tBodyGyroMag_mean/std<br/>
+tBodyGyroJerkMag_mean/std<br/>
+fBodyAcc_mean/std_XYZ<br/>
+fBodyAcc_meanfreq_XYZ<br/>
+fBodyAccJerk_mean_XYZ<br/>
+fBodyAccJerk_meanfreq_XYZ<br/>
+fBodyGyro_mean/std_XYZ<br/>
+fBodyGyro_meanfreq_XYZ<br/>
+fBodyAccMag_mean/std<br/>
+fBodyAccMag_meanfreq<br/>
+fBodyAccJerkMag_mean/std<br/>
+fBodyAccJerkMag_meanfreq<br/>
+fBodyGyroMag_mean/std<br/>
+fBodyGyroMag_meanfreq<br/>
+fBodyGyroJerkMag_mean/std<br/>
 
 The set of variables that were estimated from these signals are: 
 

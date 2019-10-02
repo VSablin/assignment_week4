@@ -38,6 +38,8 @@ f_std <- grep("std",as.character(f$V2))
 #I then select the variables with the word "Mean"/"mean" or "std". This corresponds to the 2nd step of the assignment.
 data <- select(data_merge,c(names(test)[f_mean],names(test)[f_std]))
 
+#I finally write the data frame:
+write.table(data5,file = "tidy_data_set.txt",row.name=FALSE)
 #Now I merge the activiy labels and subjects
 act <- rbind(act_train,act_test)
 subjects <- rbind(s_train,s_test)

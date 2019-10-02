@@ -14,7 +14,7 @@ It then merges the train and test sets, which corresponds to the first step of t
 
 It finds those names in features.txt (see data section) with the word "mean" or "std" (standard deviation). I chose "mean" instead of "mean()". As explained in features_info.txt, those variable with "mean" without the parenthesis are also average values.
 
-It selects the columns of the merged data with "mean" or "std" in their names. This corresponds to the second step.
+It selects the columns of the merged data with "mean"/"Mean" or "std" in their names. This corresponds to the second step.
 
 It replaces the activity labels from y_train.txt and y_test.txt by the activity names stored in activity_labels.txt (see data section). This corresponds to the third step.
 

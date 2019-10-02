@@ -30,12 +30,12 @@ act_names <- read.table("UCI HAR Dataset/activity_labels.txt")
 #I read the features and store'em in f
 f <- read.table("UCI HAR Dataset/features.txt")
 
-#I find the list of features with the words "mean" or "std"
-#In the case of mean, I chose all features with "mean" instead of just "mean()", since all of them represent averages
-f_mean <- grep("mean",as.character(f$V2))
+#I find the list of features with the words "mean"/"Mean" or "std"
+#In the case of mean, I chose all features with "mean"/"Mean" instead of just "mean()", since all of them represent averages
+f_mean <- grep("[Mm]ean",as.character(f$V2))
 f_std <- grep("std",as.character(f$V2))
 
-#I then select the variables with the word "mean" or "std". This corresponds to the 2nd step of the assignment.
+#I then select the variables with the word "Mean"/"mean" or "std". This corresponds to the 2nd step of the assignment.
 data <- select(data_merge,c(names(test)[f_mean],names(test)[f_std]))
 
 #Now I merge the activiy labels and subjects

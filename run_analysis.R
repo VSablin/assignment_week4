@@ -57,3 +57,6 @@ data <- cbind(subject = subjects$V1 , activity = act$V1, data)
 #This is the final data set: I group data by subject and activity and then compute the mean of each column for each
 #value of subject (1, 2, 3,...) and activity (WALKING, WALKING DOWNSTAIRS...)
 data5 <- data %>% group_by(subject,activity) %>% summarize_at(names(data)[3:dim(data)[2]],.funs = mean)
+
+#I finally write the data frame:
+write.table(data5,file = "tidy_data_set.txt",row.name=FALSE)

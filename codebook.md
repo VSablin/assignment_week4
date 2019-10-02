@@ -1,4 +1,4 @@
-In this codebook you can find all the information regarding the magnitudes computed in the tidy data frame.
+In this codebook you can find all the information regarding the magnitudes computed in tidy_data_set.txt.
 
 ## General information
 

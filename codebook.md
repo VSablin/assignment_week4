@@ -4,8 +4,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc_XYZ, fBodyAccJerk_XYZ, fBodyGyro_XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag (note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-XYZ is used to denote 3-axial signals in the X, Y and Z directions.
+These signals were used to estimate variables of the feature vector for each pattern: XYZ is used to denote 3-axial signals in the X, Y and, Z directions.
 
 tBodyAcc_mean/std_XYZ<br/>
 tGravityAcc_mean/std_XYZ<br/>
@@ -25,11 +24,16 @@ fBodyGyro_mean/std_XYZ<br/>
 fBodyGyro_meanfreq_XYZ<br/>
 fBodyAccMag_mean/std<br/>
 fBodyAccMag_meanfreq<br/>
-fBodyAccJerkMag_mean/std<br/>
-fBodyAccJerkMag_meanfreq<br/>
-fBodyGyroMag_mean/std<br/>
-fBodyGyroMag_meanfreq<br/>
-fBodyGyroJerkMag_mean/std<br/>
+fBodyBodyAccJerkMag_mean/std<br/>
+fBodyBodyAccJerkMag_meanFreq<br/>
+fBodyBodyGyroMag_mean/std<br/>
+fBodyBodyGyroMag_meanFreq<br/>
+fBodyBodyGyroJerkMag_mean/std<br/>
+angletBodyAccMean,gravity<br/>
+angletBodyAccJerkMean,gravityMean<br/>
+angletBodyGyroMean,gravityMean<br/>
+angletBodyGyroJerkMean,gravityMean<br/>
+angleXYZ,gravityMean
 
 The set of variables that were estimated from these signals are: 
 

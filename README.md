@@ -1,6 +1,6 @@
 # Assignment corresponding to Week 4 of Gettind and Cleaning Data
 
-In this repo you can find the script (run_analysis.R) and the tidy data frame (data5) corresponding to the assignment of Getting and Cleaning Data: Week 4. Besides, you can find all the data necessary to run the script.
+In this repo you can find the script (run_analysis.R) and the tidy data frame (tidy_data_frame.csv) corresponding to the assignment of Getting and Cleaning Data: Week 4. Besides, you can find all the data necessary to run the script.
 
 ## TO DO
 

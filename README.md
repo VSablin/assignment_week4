@@ -4,7 +4,7 @@ In this repo you can find the script (run_analysis.R) and the tidy data frame (t
 
 ## TO DO
 
-You should just download the repo and put the data folder and the script in the same directory.
+You should just download the repo and put the (uncompressed) data folder and the script in the same directory.
 
 ## SCRIPT
 
